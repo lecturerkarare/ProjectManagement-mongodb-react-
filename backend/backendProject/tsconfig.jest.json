@@ -1,0 +1,10 @@
+// tsconfig.jest.json
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true
+    },
+    "include": ["<rootDir>/jest.setup.ts"]
+  }
+  
