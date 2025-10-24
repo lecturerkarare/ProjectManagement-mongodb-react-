@@ -1,11 +1,11 @@
-# 🧩 Project Management System (MERN Stack)
+# Project Management System (MERN Stack)
 
 A full-stack **Project Management System** built using the **MERN (MongoDB, Express.js, React, Node.js)** stack.  
 The system allows users to manage projects, tasks, and team members efficiently with authentication and secure MongoDB integration.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🔐 **User Authentication** (Login / Register)
 - 📋 **Project Management** – Create, edit, and delete projects
@@ -17,7 +17,7 @@ The system allows users to manage projects, tasks, and team members efficiently 
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology Used |
 |-------|-----------------|
@@ -28,7 +28,7 @@ The system allows users to manage projects, tasks, and team members efficiently 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ProjectManagement/
 │
@@ -47,21 +47,20 @@ ProjectManagement/
 │
 └── README.md
 
-yaml
-Copy code
+
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 🖥️ Prerequisites
+### Prerequisites
 - Node.js and npm installed  
 - MongoDB installed or accessible via MongoDB Atlas  
 - Git installed  
 
 ---
 
-### 📦 Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/lecturerkarare/ProjectManagement-mongodb-react-.git
@@ -73,22 +72,22 @@ cd backend
 npm install
 npm start
 The server will start at:
-👉 http://localhost:5000
+ http://localhost:5000
 
 Expected output:
 
 “Welcome to Ticket Management API”
 
-💻 Frontend Setup
+ Frontend Setup
 bash
 Copy code
 cd frontend/ReactProject
 npm install
 npm run dev
 React app will run at:
-👉 http://localhost:5173
+ http://localhost:5173
 
-🗃️ MongoDB Connection
+MongoDB Connection
 Open MongoDB Compass (GUI)
 
 Connect using:
@@ -100,7 +99,7 @@ Create a new database (e.g., project_management)
 
 Backend connects automatically via the .env file configuration.
 
-🧠 Environment Variables
+ Environment Variables
 Create a .env file inside the backend folder and add:
 
 ini
@@ -108,7 +107,7 @@ Copy code
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/project_management
 JWT_SECRET=yourSecretKey
-🧰 Useful Commands
+ Useful Commands
 Command	Description
 npm start	Run backend server
 npm run dev	Run React frontend
